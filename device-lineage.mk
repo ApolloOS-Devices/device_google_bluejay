@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     com.google.hardware.pixel.display-V4-ndk.vendor:64
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/Gramophone/Gramophone.apk \
     system/app/WeatherIcons/WeatherIcons.apk \
     system/etc/init/smartcharge-init.rc \
     system/etc/permissions/android.hardware.biometrics.face.xml \
@@ -161,7 +162,6 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/fonts/RobotoFallback-VF.ttf \
     system/media/bootanimation.zip \
     system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk \
-    system/app/Phonograph/Phonograph.apk \
     system/etc/default-permissions/default_permissions_co.aospa.sense.xml \
     system/etc/permissions/privapp_whitelist_co.aospa.sense.xml \
     system/etc/sysconfig/hiddenapi-whitelist-co.aospa.sense.xml \
